@@ -213,7 +213,7 @@ def parse_and_save (args, opts={}):
         if printFname == "stdout":
             printFile = sys.stdout
         else:
-            printFile = open(printFname, "w")
+            pass
     else:
         sys.stderr.write("opened % s, outputing to % s\n" % (fname, outFname))
 
